@@ -1,0 +1,11 @@
+{
+  "name": "part-2",
+  "version": "1.0.0",
+  "description": "Part 2 of Solution to Phase 3 C Intervew Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "DeBray Carpenter",
+  "license": "ISC"
+}
