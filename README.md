@@ -25,17 +25,17 @@ Solution repo for the Phase 3 Challenge version C
 - [x] __10:__ All files are stored under the `part-2/` folder
 - [x] __10:__ Database schema (all `CREATE TABLE` statements) is defined in a file `schema.sql`
 - [x] __10:__ SQL statements to insert seed data into all tables is added to the file `load-data.sql` (either create your own seed data or use the files provided: [rooms.csv][hotel-rooms] | [bookings.csv][hotel-bookings] | [guests.csv][hotel-guests])
-- [ ] __10:__ All database query functions are written in a file `database.js`, and tests for queries are written in a file `database_test.js`
-- [ ] __10:__ Tests can be run with the command `$ npm test`
+- [x] __10:__ All database query functions are written in a file `database.js`, and tests for queries are written in a file `database_test.js`
+- [x] __10:__ Tests can be run with the command `$ npm test`
 
 User Stories: Ensure that your schema design can satisfy the following scenarios
-- [ ] __10__: As a hotel manager I can get a list of all guests
+- [x] __10__: As a hotel manager I can get a list of all guests
 - [ ] __10__: As a hotel manager I can get a list of all rooms
 - [ ] __10__: As a hotel manager I can see which rooms have been booked by which guests, along with their check-in and check out dates
 
 Command line interface requirements
-- [ ] __10__: There is a Node script called `hotel.js` that can be called with different commands
-- [ ] __20__: Command `guests` has been implemented to the above specifications
+- [x] __10__: There is a Node script called `hotel.js` that can be called with different commands
+- [x] __20__: Command `guests` has been implemented to the above specifications
 - [ ] __30__: Command `rooms` has been implemented to the above specifications
 - [ ] __30__: Command `bookings` has been implemented to the above specifications
 
