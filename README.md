@@ -24,7 +24,7 @@ Solution repo for the Phase 3 Challenge version C
 ### Requirements
 - [x] __10:__ All files are stored under the `part-2/` folder
 - [x] __10:__ Database schema (all `CREATE TABLE` statements) is defined in a file `schema.sql`
-- [ ] __10:__ SQL statements to insert seed data into all tables is added to the file `load-data.sql` (either create your own seed data or use the files provided: [rooms.csv][hotel-rooms] | [bookings.csv][hotel-bookings] | [guests.csv][hotel-guests])
+- [x] __10:__ SQL statements to insert seed data into all tables is added to the file `load-data.sql` (either create your own seed data or use the files provided: [rooms.csv][hotel-rooms] | [bookings.csv][hotel-bookings] | [guests.csv][hotel-guests])
 - [ ] __10:__ All database query functions are written in a file `database.js`, and tests for queries are written in a file `database_test.js`
 - [ ] __10:__ Tests can be run with the command `$ npm test`
 
@@ -48,11 +48,11 @@ Write tests with [Mocha](https://mochajs.org/) + [Chai](http://chaijs.com/) in `
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-3/` folder
-- [ ] __20:__ No third party CSS or JS libraries are used (all code must be written from scratch)
-- [ ] __10:__ HTML, CSS, and JS are separated into their own files.
-- [ ] __20:__ Clicking on the "Book" button for a room will open the "Booking" modal with the room info automatically inserted (room number and nightly rate)
-- [ ] __20:__ Users can select a check-in date (using an HTML5 date input) and a number of nights
-- [ ] __20:__ The "Total" in the "Booking" modal shows the total sum (formula: nightly rate multiplied by number of nights)
-- [ ] __20:__ Whenever the number of nights changes, the total is updated automatically
-- [ ] __20:__ Clicking on the "X" button in the "Booking" modal closes the modal
+- [x] __10:__ All files are stored under the `part-3/` folder
+- [x] __20:__ No third party CSS or JS libraries are used (all code must be written from scratch)
+- [x] __10:__ HTML, CSS, and JS are separated into their own files.
+- [x] __20:__ Clicking on the "Book" button for a room will open the "Booking" modal with the room info automatically inserted (room number and nightly rate)
+- [x] __20:__ Users can select a check-in date (using an HTML5 date input) and a number of nights
+- [x] __20:__ The "Total" in the "Booking" modal shows the total sum (formula: nightly rate multiplied by number of nights)
+- [x] __20:__ Whenever the number of nights changes, the total is updated automatically
+- [x] __20:__ Clicking on the "X" button in the "Booking" modal closes the modal
