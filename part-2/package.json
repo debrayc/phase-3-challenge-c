@@ -4,8 +4,16 @@
   "description": "Part 2 of Solution to Phase 3 C Intervew Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./database/database_test.js"
   },
   "author": "DeBray Carpenter",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "pg-promise": "^6.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.0"
+  }
 }
